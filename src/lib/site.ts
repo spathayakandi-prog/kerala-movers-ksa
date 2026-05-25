@@ -1,0 +1,29 @@
+export const SITE = {
+  name: "Kerala Movers and Packers Al Khobar",
+  shortName: "Kerala Movers KSA",
+  phone: "+966531811378",
+  phoneDisplay: "+966 53 181 1378",
+  whatsapp: "https://wa.me/966531811378",
+  instagram: "https://www.instagram.com/keralamoverskbr?igsh=MmpodHpiOWh2MWV5",
+  facebook: "https://www.facebook.com/share/14XsnV17fbM/",
+  email: "info@keralamoversksa.com",
+  domain: "keralamoversksa.com",
+  address: "Al Khobar, Eastern Province, Saudi Arabia",
+  hours: "24/7 — Open All Day",
+  areas: ["Al Khobar", "Dammam", "Dhahran", "Eastern Province", "Riyadh", "Jeddah"],
+  tagline: "Best Movers and Packers in Al Khobar & Dammam",
+};
+
+export const SERVICES = [
+  { slug: "house-shifting", title: "House Shifting", icon: "Home", desc: "Trusted house shifting services in Al Khobar, Dammam and across the Eastern Province — packed, loaded and delivered safely." },
+  { slug: "apartment-moving", title: "Apartment Moving", icon: "Building2", desc: "Fast and affordable apartment movers near you — careful handling for elevators, stairs and tight spaces." },
+  { slug: "villa-relocation", title: "Villa Relocation", icon: "Castle", desc: "Premium villa shifting service in Saudi Arabia with full packing, dismantling and reassembly." },
+  { slug: "office-relocation", title: "Office Relocation", icon: "Briefcase", desc: "Professional office movers — IT equipment, desks and workstations relocated with zero downtime." },
+  { slug: "furniture-moving", title: "Furniture Moving", icon: "Sofa", desc: "Specialist furniture movers for sofas, beds, wardrobes and fragile items across the Eastern Province." },
+  { slug: "packing-unpacking", title: "Packing & Unpacking", icon: "Package", desc: "Safe packing methods using bubble wrap, blankets and double-walled cartons for total protection." },
+  { slug: "loading-unloading", title: "Loading & Unloading", icon: "Truck", desc: "Strong, experienced Kerala loading crew available 24/7 across Al Khobar, Dammam and Dhahran." },
+  { slug: "local-moving", title: "Local Moving", icon: "MapPin", desc: "Same-day local movers within Al Khobar and Dammam — fast pickup, careful drop-off." },
+  { slug: "long-distance", title: "Long Distance Moving", icon: "Route", desc: "Long-distance relocation across Saudi Arabia — Khobar to Riyadh, Jeddah and beyond." },
+  { slug: "furniture-transport", title: "Furniture Transport", icon: "TruckIcon", desc: "Closed trucks for safe furniture transport anywhere in the Kingdom." },
+  { slug: "dismantling-fixing", title: "Dismantling & Fixing", icon: "Wrench", desc: "Skilled carpenters to dismantle and reassemble beds, wardrobes and office furniture." },
+];
