@@ -26,4 +26,8 @@ export const SERVICES = [
   { slug: "long-distance", title: "Long Distance Moving", icon: "Route", desc: "Long-distance relocation across Saudi Arabia — Khobar to Riyadh, Jeddah and beyond." },
   { slug: "furniture-transport", title: "Furniture Transport", icon: "TruckIcon", desc: "Closed trucks for safe furniture transport anywhere in the Kingdom." },
   { slug: "dismantling-fixing", title: "Dismantling & Fixing", icon: "Wrench", desc: "Skilled carpenters to dismantle and reassemble beds, wardrobes and office furniture." },
+  { slug: "drill-work", title: "Drill & Fixing Work", icon: "Drill", desc: "Professional drill work in Al Khobar & Dammam — curtain fitting, TV wall mounting, shelves, mirrors, paintings and wall fixtures." },
+  { slug: "curtain-fitting", title: "Curtain Fitting", icon: "Blinds", desc: "Expert curtain rod installation, blinds fitting and window treatments for villas, apartments and offices." },
+  { slug: "tv-mounting", title: "TV Wall Mounting", icon: "Tv", desc: "Safe TV wall mounting for all sizes and brands — concrete, drywall and gypsum walls, with cable management." },
+  { slug: "scrap-buying", title: "Scrap Buying", icon: "Recycle", desc: "We buy used furniture, appliances and scrap items at fair prices across Al Khobar, Dammam & Eastern Province. Free pickup available." },
 ];
