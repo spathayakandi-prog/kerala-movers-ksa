@@ -12,9 +12,10 @@ export function localBusinessJsonLd() {
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Al Khobar",
+      streetAddress: "Al Khobar Al Shamalia, EKDA6915, 6915 Prince Thamer Ibn Abdulaziz, 2545",
       addressLocality: "Al Khobar",
       addressRegion: "Eastern Province",
+      postalCode: "34428",
       addressCountry: "SA",
     },
     geo: { "@type": "GeoCoordinates", latitude: 26.2172, longitude: 50.1971 },

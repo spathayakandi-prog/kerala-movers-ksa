@@ -8,7 +8,7 @@ export const SITE = {
   facebook: "https://www.facebook.com/share/14XsnV17fbM/",
   email: "info@keralamoversksa.com",
   domain: "keralamoversksa.com",
-  address: "Al Khobar, Eastern Province, Saudi Arabia",
+  address: "Al Khobar Al Shamalia, EKDA6915, 6915 Prince Thamer Ibn Abdulaziz, 2545, Al Khobar 34428, Saudi Arabia",
   hours: "24/7 — Open All Day",
   areas: ["Al Khobar", "Dammam", "Dhahran", "Eastern Province", "Riyadh", "Jeddah"],
   tagline: "Best Movers and Packers in Al Khobar & Dammam",
