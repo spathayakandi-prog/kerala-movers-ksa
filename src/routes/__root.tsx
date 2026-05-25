@@ -58,6 +58,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "geo.region", content: "SA-04" },
       { name: "geo.placename", content: "Al Khobar" },
       { name: "theme-color", content: "#1a2a4a" },
+      { title: "Lovable App" },
+      { property: "og:title", content: "Lovable App" },
+      { name: "twitter:title", content: "Lovable App" },
+      { property: "og:description", content: "Professional Kerala movers and packers in Al Khobar, Dammam, Dhahran and across Saudi Arabia. House shifting, furniture moving, office relocation. Call 24/7." },
+      { name: "twitter:description", content: "Professional Kerala movers and packers in Al Khobar, Dammam, Dhahran and across Saudi Arabia. House shifting, furniture moving, office relocation. Call 24/7." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/05f882d2-d22f-4a82-a599-1f4aa12c2604/id-preview-2e614200--3a05afbb-646a-4978-879b-88a80deab0ed.lovable.app-1779700498849.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/05f882d2-d22f-4a82-a599-1f4aa12c2604/id-preview-2e614200--3a05afbb-646a-4978-879b-88a80deab0ed.lovable.app-1779700498849.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
