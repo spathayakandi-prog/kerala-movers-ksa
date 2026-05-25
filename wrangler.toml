@@ -1,3 +1,4 @@
-name = "tanstack-start-app"
+name = "kerala-movers-ksa"
+compatibility_date = "2025-05-01"
+
 pages_build_output_dir = "dist/client"
-compatibility_date = "2025-09-24"
