@@ -170,9 +170,10 @@ function Home() {
         <div className="text-center mb-10">
           <span className="text-gold font-semibold text-sm uppercase tracking-wider">Find Us</span>
           <h2 className="mt-2 font-display text-3xl md:text-5xl font-bold text-primary">Serving Al Khobar & Dammam</h2>
+          <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">Visit us at Al Khobar Al Shamalia, EKDA6915, 6915 Prince Thamer Ibn Abdulaziz, Al Khobar 34428</p>
         </div>
         <div className="rounded-2xl overflow-hidden shadow-elegant border border-border">
-          <iframe title="Al Khobar service location" src="https://www.google.com/maps?q=Al+Khobar+Saudi+Arabia&output=embed" className="w-full h-[400px]" loading="lazy" />
+          <iframe title="Kerala Movers office location" src={`https://www.google.com/maps?q=${encodeURIComponent("EKDA6915, 6915 Prince Thamer Ibn Abdulaziz, Al Khobar 34428, Saudi Arabia")}&output=embed`} className="w-full h-[400px]" loading="lazy" />
         </div>
       </section>
 

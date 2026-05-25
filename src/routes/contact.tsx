@@ -21,7 +21,7 @@ function Contact() {
     { icon: Phone, label: "Call Us", value: SITE.phoneDisplay, href: `tel:${SITE.phone}` },
     { icon: MessageCircle, label: "WhatsApp 24/7", value: "Chat with us instantly", href: SITE.whatsapp },
     { icon: Mail, label: "Email", value: SITE.email, href: `mailto:${SITE.email}` },
-    { icon: MapPin, label: "Service Areas", value: "Al Khobar, Dammam, Dhahran, Eastern Province" },
+    { icon: MapPin, label: "Address", value: SITE.address, href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.address)}` },
     { icon: Clock, label: "Hours", value: "24 Hours — 7 Days a Week" },
   ];
   return (
@@ -58,7 +58,7 @@ function Contact() {
       </section>
       <section className="container-px mx-auto max-w-7xl pb-20">
         <div className="rounded-2xl overflow-hidden shadow-elegant border border-border">
-          <iframe title="Al Khobar map" src="https://www.google.com/maps?q=Al+Khobar+Saudi+Arabia&output=embed" className="w-full h-[420px]" loading="lazy" />
+          <iframe title="Kerala Movers office location" src={`https://www.google.com/maps?q=${encodeURIComponent("EKDA6915, 6915 Prince Thamer Ibn Abdulaziz, Al Khobar 34428, Saudi Arabia")}&output=embed`} className="w-full h-[420px]" loading="lazy" />
         </div>
       </section>
     </>
